@@ -14,7 +14,7 @@ In this assignment, you will complete the PerimeterAssignmentRunner class to cal
 
 - The main method.
 
-For this assignment, you will add or modify several methods in the PerimeterAssigmentRunner class.
+### For this assignment, you will add or modify several methods in the PerimeterAssigmentRunner class.
 
 1. **Complete writing the method getNumPoints** that has one parameter s that is of type Shape. This method returns an integer that is the number of points in Shape s. Hint: You will need to iterate over all the points in the Shape S and count them.
 
