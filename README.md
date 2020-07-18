@@ -1,4 +1,10 @@
-# Java Programming: Solving Problems With Software
-This is course 1 out of 4 of the Object Oriented Programming in Java Specialization offered by Duke University on Coursera.
+# Object Oriented Programming in Java Specialization
 
-This repository is the beginning of my programming journey, and contains all my coursework from this course.
+**This specialization consists of 4 courses offered by Duke University | Coursera**
+
+You can find out more about the specialization [here](https://www.coursera.org/specializations/object-oriented-programming).
+
+- I will constantly update this repository as I progress through the courses.
+- I only wish to document my progress here, and do not advocate unethical, or unscrupulous behaviour.
+
+*This repository is the beginning of my programming journey, and contains all my coursework from this course!*
