@@ -1,4 +1,4 @@
-# Object Oriented Programming in Java Specialization
+# Object Oriented Programming in Java Specialization:white_heart:
 
 **This specialization consists of 4 courses offered jointly by Duke University and UC San Diego | Coursera**
 
