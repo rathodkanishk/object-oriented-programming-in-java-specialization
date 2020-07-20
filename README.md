@@ -9,4 +9,4 @@ You can find out more about the specialization [**here**](https://www.coursera.o
 
 *This repository is the beginning of my programming journey, and contains all my coursework from this course!*
 
-*Kanishk :black_heart:*
+***Kanishk :black_heart:***
