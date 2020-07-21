@@ -1,6 +1,6 @@
-# Object Oriented Programming in Java Specialisation 
+# Object Oriented Programming in Java Specialization 
 
-**This specialisation consists of 4 courses offered jointly by Duke University and UC San Diego | Coursera**
+**This specialization consists of 4 courses offered jointly by Duke University and UC San Diego | Coursera**
 
 1. [**Java Programming: Solving Problems with Software**](https://www.coursera.org/learn/java-programming)
 2. [**Java Programming: Arrays, Lists, and Structured Data**](https://www.coursera.org/learn/java-programming-arrays-lists-data)
