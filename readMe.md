@@ -9,9 +9,10 @@
 
 You can find out more about the specialization [**here**](https://www.coursera.org/specializations/object-oriented-programming).
 
+_**The primary purpose of this repository is to maintain a record of my progress through the courses.**_
 - I will constantly update this repository as I progress through the courses.
 - I only wish to document my progress here, and do not advocate unethical, or unscrupulous behaviour.
 
-*This repository is the beginning of my programming journey, and contains all my coursework from this course!*
+*This repository is the beginning of my programming journey!*
 
 ***Kanishk :black_heart:***
