@@ -9,9 +9,11 @@
 
 You can find out more about the specialization [**here**](https://www.coursera.org/specializations/object-oriented-programming).
 
-_**The primary purpose of this repository is to maintain a record of my progress through the courses.**_
-- I will constantly update this repository as I progress through the courses.
-- I only wish to document my progress here, and do not advocate unethical, or unscrupulous behaviour.
+***The primary purpose of this repository is to maintain a record of my progress through the courses.***
+* I will constantly update this repository as I progress through the courses.
+* The assignments and programming exercises uploaded here are the ones found in the course pages.
+  * I have made a copy of these exercises for easy reference.
+* I only wish to document my progress here, and do not advocate unethical, or unscrupulous behaviour.
 
 *This repository is the beginning of my programming journey!*
 
