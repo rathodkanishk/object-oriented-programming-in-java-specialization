@@ -13,6 +13,7 @@ You can find out more about the specialization [**here**](https://www.coursera.o
 * I will constantly update this repository as I progress through the courses.
 * The assignments and programming exercises uploaded here are the ones found in the course pages.
   * I have made a copy of these exercises for easy reference.
+  * I have explained in detail almost every line of code for absolute clarity.
 * I only wish to document my progress here, and do not advocate unethical, or unscrupulous behaviour.
 
 *This repository is the beginning of my programming journey!*
