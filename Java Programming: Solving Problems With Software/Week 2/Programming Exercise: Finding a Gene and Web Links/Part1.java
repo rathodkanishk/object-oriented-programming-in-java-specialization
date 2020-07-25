@@ -8,7 +8,6 @@
 public class Part1 {
     public String findSimpleGene(String dna) {
         // Find index position of start codon "ATG"
-        String result = "";
         int startIndex = dna.indexOf("ATG");
         // If there is no "ATG" return the empty string ""
         if (startIndex == -1) {
@@ -21,7 +20,7 @@ public class Part1 {
             return "";
         }
         // Find the substring between "ATG" and "TAA"
-        result = dna.substring(startIndex, stopIndex + 3);
+        String result = dna.substring(startIndex, stopIndex + 3);
         // If the length of the substring between ATG and TAA is a multiple of 3
         if (result.length() % 3 == 0) {
             // Then return the substring that starts with ATG and ends with that TAA
