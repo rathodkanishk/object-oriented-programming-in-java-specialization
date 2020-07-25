@@ -9,26 +9,26 @@ public class Part1 {
     public String findSimpleGene(String dna) {
         // Find index position of start codon "ATG"
         int startIndex = dna.indexOf("ATG");
-        // If there is no "ATG" return the empty string ""
-        if (startIndex == -1) {
-            return "";
-        }
+            // If there is no "ATG" return the empty string ""
+            if (startIndex == -1) {
+                return "";
+            }
         // Find the index position of stop codon "TAA" appearing after startIndex
         int stopIndex = dna.indexOf("TAA", startIndex + 3);
-        // If there is no "TAA" return the empty string ""
-        if (stopIndex == -1) {
-            return "";
-        }
+            // If there is no "TAA" return the empty string ""
+            if (stopIndex == -1) {
+                return "";
+            }
         // Find the substring between "ATG" and "TAA"
         String result = dna.substring(startIndex, stopIndex + 3);
-        // If the length of the substring between ATG and TAA is a multiple of 3
-        if (result.length() % 3 == 0) {
-            // Then return the substring that starts with ATG and ends with that TAA
-            result = dna.substring(startIndex, stopIndex + 3);
-        }
-        else {
-            result = "";
-        }
+            // If the length of the substring between ATG and TAA is a multiple of 3
+            if (result.length() % 3 == 0) {
+                // Then return the substring that starts with ATG and ends with that TAA
+                result = dna.substring(startIndex, stopIndex + 3);
+            }
+            else {
+                result = "";
+            }
         // Result is the answer
         return result;
     }
