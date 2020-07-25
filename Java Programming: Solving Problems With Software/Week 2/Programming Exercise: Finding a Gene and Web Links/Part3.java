@@ -10,42 +10,42 @@ public class Part3 {
     int occurrences = 0;
     // Find start index of the first occurrence of string a
     int firstOccurIndex = stringb.indexOf(stringa);
-    // If firstOccurIndex > -1 then occurences += 1
-    if (firstOccurIndex > -1) {
-        occurrences = occurrences + 1;
-    }
+        // If firstOccurIndex > -1 then occurences += 1
+        if (firstOccurIndex > -1) {
+            occurrences = occurrences + 1;
+        }
     // Look for 2nd occurence  
     // Create substring from firstOccurIndex to end of string
     String s = stringb.substring(firstOccurIndex + stringa.length(), stringb.length());
-    // If stringa appears in string b AFTER firstOccurIndex (i.e. in String s); occurrences + 1;
-    if (s.contains(stringa)) {
-        occurrences = occurrences + 1;
-    }
-    // If occurrences >= 2; return true, else return false
-    if (occurrences >= 2) {
-        return true;
-    }
-    else {
-        return false;
-    }
+        // If stringa appears in string b AFTER firstOccurIndex (i.e. in String s); occurrences + 1;
+        if (s.contains(stringa)) {
+            occurrences = occurrences + 1;
+        }
+        // If occurrences >= 2; return true, else return false
+        if (occurrences >= 2) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
     
     public String lastPart(String stringa, String stringb) {
     // Find first occurrences of stringa in stringb
     int occurrences = 0;
     int firstOccurIndex = stringb.indexOf(stringa);
-    if (firstOccurIndex > -1) {
-        occurrences = occurrences + 1;
-    }
-    // If stringa occurs in stringb, return part from stringb that follows stringa
-    if (occurrences > 0) {
-        String s = stringb.substring(firstOccurIndex + stringa.length(), stringb.length());
-        return s;
-    }
-    // Else return stringb
-    else {
-        return stringb;
-    }       
+        if (firstOccurIndex > -1) {
+            occurrences = occurrences + 1;
+        }
+        // If stringa occurs in stringb, return part from stringb that follows stringa
+        if (occurrences > 0) {
+            String s = stringb.substring(firstOccurIndex + stringa.length(), stringb.length());
+            return s;
+        }
+        // Else return stringb
+        else {
+            return stringb;
+        }       
     }
     
     public void testing () {
