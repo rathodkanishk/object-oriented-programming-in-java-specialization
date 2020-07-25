@@ -3,7 +3,7 @@
  * Part3 of StringsFirstAssignments
  * 
  * @author (Kanishk Rathod) 
- * @version (a version number or a date)
+ * @version (25/07/2020)
  */
 public class Part3 {
     public boolean twoOccurrences (String stringa, String stringb) {
