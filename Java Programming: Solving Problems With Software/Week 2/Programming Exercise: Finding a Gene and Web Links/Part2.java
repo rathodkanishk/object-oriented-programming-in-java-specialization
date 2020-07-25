@@ -7,9 +7,7 @@
  */
 public class Part2 {
     public String findSimpleGene(String dna, String startCodon, String stopCodon) {
-        // Find index position of startCodon
-        String result = "";
-        // If the first character of dna is upper case, startCodon and stopCodon are upper case
+                // If the first character of dna is upper case, startCodon and stopCodon are upper case
         if (Character.isUpperCase(dna.charAt(0))) {
             startCodon = startCodon.toUpperCase();
             stopCodon = stopCodon.toUpperCase();
@@ -19,6 +17,7 @@ public class Part2 {
             startCodon = startCodon.toLowerCase();
             stopCodon = stopCodon.toLowerCase();
         }
+        // Find index position of startCodon
         int startIndex = dna.indexOf(startCodon);
         // If there is no startCodon return the empty string ""
         if (startIndex == -1) {
