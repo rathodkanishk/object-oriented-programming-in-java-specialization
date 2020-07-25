@@ -7,38 +7,38 @@
  */
 public class Part2 {
     public String findSimpleGene(String dna, String startCodon, String stopCodon) {
-                // If the first character of dna is upper case, startCodon and stopCodon are upper case
-        if (Character.isUpperCase(dna.charAt(0))) {
-            startCodon = startCodon.toUpperCase();
-            stopCodon = stopCodon.toUpperCase();
-        }
-        // Else the startCodon and stopCodon are lower case
-        else {
-            startCodon = startCodon.toLowerCase();
-            stopCodon = stopCodon.toLowerCase();
-        }
+            // If the first character of dna is upper case, startCodon and stopCodon are upper case
+            if (Character.isUpperCase(dna.charAt(0))) {
+                startCodon = startCodon.toUpperCase();
+                stopCodon = stopCodon.toUpperCase();
+            }
+            // Else the startCodon and stopCodon are lower case
+            else {
+                startCodon = startCodon.toLowerCase();
+                stopCodon = stopCodon.toLowerCase();
+            }
         // Find index position of startCodon
         int startIndex = dna.indexOf(startCodon);
-        // If there is no startCodon return the empty string ""
-        if (startIndex == -1) {
-            return "";
-        }
+            // If there is no startCodon return the empty string ""
+            if (startIndex == -1) {
+                return "";
+            }
         // Find the index position of stopCodon appearing after startIndex
         int stopIndex = dna.indexOf(stopCodon, startIndex + 3);
-        // If there is no stopCodon return the empty string ""
-        if (stopIndex == -1) {
-            return "";
-        }
+            // If there is no stopCodon return the empty string ""
+            if (stopIndex == -1) {
+                return "";
+            }
         // Find the substring between startCodon and stopCodon inclusive
         result = dna.substring(startIndex, stopIndex + 3);
-        // If the length of the substring between startCodon and stopCodon is a multiple of 3
-        if (result.length() % 3 == 0) {
-            // Then return the substring that starts with startCodon and ends with that stopCodon
-            result = dna.substring(startIndex, stopIndex + 3);
-        }
-        else {
-            result = "";
-        }
+            // If the length of the substring between startCodon and stopCodon is a multiple of 3
+            if (result.length() % 3 == 0) {
+                // Then return the substring that starts with startCodon and ends with that stopCodon
+                result = dna.substring(startIndex, stopIndex + 3);
+            }
+            else {
+                result = "";
+            }
         // Result is the answer
         return result;
     }
