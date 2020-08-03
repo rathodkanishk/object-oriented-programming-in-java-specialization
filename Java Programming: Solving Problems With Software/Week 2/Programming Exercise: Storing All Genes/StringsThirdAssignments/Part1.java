@@ -5,6 +5,9 @@
  * @author (Kanishk Rathod) 
  * @version (02/08/2020)
  */
+
+// IMPORTANT: This version of the code is what I used to answer all the questions for the Week 2 Quiz. It was modified to answer the questions, and hence will be different from the expected solution for the programming exercise "Storing all Genes". 
+
 import edu.duke.*;
 public class Part1 {
     public int findStopCodon(String dna, int startIndex, String stopCodon) {
