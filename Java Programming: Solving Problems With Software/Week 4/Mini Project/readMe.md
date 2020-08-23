@@ -5,11 +5,11 @@ For this assignment, we are providing data on baby names from the United States 
 
 For example, below are two pictures of parts of the file "yob2014.csv", for names of babies born in 2014. On the left is the top of the file which shows that Emma is the most popular name, the F is for female and the 20799 indicates the number of Emma’s born in 2014. The file lists all the girls first, and they are listed in order based on the number of births, from largest numbers to smallest numbers. On the right is another snapshot of the file, showing the end of the girls and the start of the boys. You can see that Noah was the most popular boys name in 2014, the M indicates a male, and 19144 is the number of boys named Noah that year. Also notice there are no headers in this file. The video showed you how to access the fields in a .csv file when there are no headers.
 
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/VA4SZ2hiEeWQ2QoGQ8zX1w_11b7ad24a4b160aa1282f5b2a08027db_Screen-Shot-2015-10-01-at-1.30.11-PM.png?expiry=1598054400000&hmac=EXqM-AHf38O0V5G2MM3n_sxaspfrETd1jBrU1fWgyLA)
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/VA4SZ2hiEeWQ2QoGQ8zX1w_11b7ad24a4b160aa1282f5b2a08027db_Screen-Shot-2015-10-01-at-1.30.11-PM.png?expiry=1598313600000&hmac=M1YDUtPxrVB_w27rch3NxIihcymwU_I9EpVslL04P8U)
 
 Since these data files are quite large, we will also provide three small files with fake data for testing. We show the three files called "yob2012short.csv", "yob2013short.csv" and "yob2014short.csv" below in that order. The three files have only ten lines each, 5 girls and 5 boys names, and smaller numbers to work with. You can download a .zip folder of the shortened baby name data by clicking [**here**](http://www.dukelearntoprogram.com/course2/data/us_babynames_small.zip).
 
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Yy81B2hiEeW7ghK3HGMBQw_32775231da216cd474e1a9434706d8c3_Screen-Shot-2015-10-01-at-1.30.30-PM.png?expiry=1598054400000&hmac=8SPFRhRIMXiOEpzzTqSKOKtrIhbyEaAdLZ6mSGS5SLU)
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Yy81B2hiEeW7ghK3HGMBQw_32775231da216cd474e1a9434706d8c3_Screen-Shot-2015-10-01-at-1.30.30-PM.png?expiry=1598313600000&hmac=M3LJyU9C3zPRLHbq_ymSCzFmTrouap8wT902eirRj6o)
 
 You will write a program with several methods and tester methods to test each method you write. You should start with understanding the methods shown in the video. Specifically you should write the following methods:
 
